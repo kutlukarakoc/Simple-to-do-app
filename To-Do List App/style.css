@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    max-width: 650px;
+    max-width: 600px;
     overflow: auto;
     position: relative;
     padding-bottom: 50px;
@@ -42,7 +42,7 @@ input[type=text],
 input[type=text]:focus{
     color: #fff;
     background-color: rgba(0,0,0,0.2);
-    border: 1px solid#D87E7E;
+    border: 1px solid #D87E7E;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
