@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
+body{
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+::placeholder{
+    color: #fff!important;
+}
+
+.container{
+    max-width: 650px;
+    overflow: auto;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.container::before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    background-image: url('bg-image.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+
+.header{
+    padding-top: 150px;
+}
+
+input[type=text],
+input[type=text]:focus{
+    color: #fff;
+    background-color: rgba(0,0,0,0.2);
+    border: 1px solid#D87E7E;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.todos .example{
+    background-color: #D87E7E;
+}
+
+.delete{
+    cursor: pointer;
+}
+
+label{
+    font-size: 20px;
+}
+
+.filtered{
+    display: none!important;
+}
+
+.clockSec{
+    margin-top: 50px;
+}
+
+.clockSec .clock{
+    font-size: 21px;
+    font-weight: bold;
+}
