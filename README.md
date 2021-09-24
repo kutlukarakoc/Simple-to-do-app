@@ -1,4 +1,4 @@
-# Simple-to-do-app
+# Simple-to-do-app(Responsive)
 ![](https://github.com/kutlukarakoc/Simple-to-do-app/blob/main/simple-to-do.png)
 
 #### A simple to-do list webapp.
