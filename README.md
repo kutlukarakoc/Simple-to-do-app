@@ -1,4 +1,4 @@
-# Simple-to-do-app-with-local-storage(Responsive)
+# Simple to-do app with local storage(Responsive)
 ![](https://github.com/kutlukarakoc/Simple-to-do-app/blob/main/simple-to-do.png)
 
 ### Live Demo:
